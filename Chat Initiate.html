@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 </head>
 <body>
-<button onclick="bootstrapChat()">
+<button onclick="bootstrapChat()" class="minimizedContainer">
 	<img border="0" alt="eSellerChat" src="https://fcaemea--c.eu41.content.force.com/servlet/servlet.ImageServer?id=0156700000AdtQw&oid=00D0O000000srV4&lastMod=1652780990000" width="50" height="50">
 </button>
 </body>  
@@ -16,6 +16,26 @@
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
 		outline: 1px solid #005290;
+	}
+	.minimizedContainer {
+		    position: fixed;
+		    left: auto;
+		    bottom: 0;
+		    right: 12px;
+		    margin: 0;
+		    min-width: 12em;
+		    max-width: 14em;
+		    height: 46px;
+		    width: 192px;
+		    max-height: 100%;
+		    border-radius: 8px 8px 0 0;
+		    text-align: center;
+		    text-decoration: none;
+		    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
+		    pointer-events: all;
+		    overflow: hidden;
+		    background-color: rgb(0, 112, 210);
+		    font-size: 16px;
 	}
 </style>
 <script type='text/javascript'>
